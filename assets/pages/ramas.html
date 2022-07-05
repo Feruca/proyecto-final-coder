@@ -9,10 +9,8 @@
     <script src="../bootstrap/js/jquery.slim.min.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/estilos.css">
-    <script src="../js/wow.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <link rel="stylesheet" href="../css/animate.css">
+
 </head>
 <body>
     <header>
@@ -45,16 +43,16 @@
     </header>
     <div class="container-fluid containerRamas">
         <div class="row mb-5">
-            <p class="titulosRamas d-block mx-auto">ESTATICOS</p>
+            <p class="titulosRamas col-12 text-center">ESTATICOS</p>
             <p class="textoRamas">
                 Los ejercicios Estáticos o isométricos en la Calistenia son aquellos en donde el atleta permanece en la misma posición durante la ejecución del elemento. Cuando se ejecuta un ejercicio estático la longitud del músculo prácticamente no varia y hablamos de una contracción muscular estática.
             </p>
-            <img class="fotoRamas d-block mx-auto" src="../images/ramas/estaticos/front-pu.jpg" alt="">
-            <img class="fotoRamas d-block mx-auto" src="../images/ramas/estaticos/fp.jpg" alt="">
-            <img class="fotoRamas d-block mx-auto" src="../images/ramas/estaticos/oafl.jpg" alt="">
+            <img class="fotoRamas d-block mx-auto wow animate__animated animate__backInLeft" src="../images/ramas/estaticos/front-pu.jpg" alt="">
+            <img class="fotoRamas d-block mx-auto wow animate__animated animate__backInUp" src="../images/ramas/estaticos/fp.jpg" alt="">
+            <img class="fotoRamas d-block mx-auto wow animate__animated animate__backInRight" src="../images/ramas/estaticos/oafl.jpg" alt="">
         </div>
         <div class="row mb-5">
-            <p class="titulosRamas d-block mx-auto">DINAMICOS</p>
+            <p class="titulosRamas col-12 text-center">DINAMICOS</p>
             <p class="textoRamas">
                 Los elementos Dinámicos sonejercicios avanzados que consisten en el movimiento y balanceo del cuerpo, se utilizan en "freestyle", aparte de fuerza requieren gran agilidad y reflejos. Ejemplos de estos pueden ser: Swing 360, Dragon 540, Barspin, etc.
             </p>
@@ -62,15 +60,15 @@
             <img class="fotoRamas d-block mx-auto" src="../images/ramas/dinamicos/tk360.jpg" alt="">
         </div>
         <div class="row mb-5">
-            <p class="titulosRamas d-block mx-auto">BALANCE</p>
+            <p class="titulosRamas col-12 text-center">BALANCE</p>
             <p class="textoRamas">
                 Los ejercicios de Balance son aquellos en los que hay que permanecer en la misma posición durante su ejecución. A diferencia de los elementos estaticos, que requieren de mucha fuerza y poco equilibrio, los elementos de balance requieren de mucho equilibrio y poca fuerza. El más claro ejemplo de balance es el Pino o Handstand.
             </p>
-            <img class="fotoRamas d-block mx-auto" src="../images/ramas/balance/oah.jpg" alt="">
+            <img class="fotoRamas d-block mx-auto" data-wow-duration="1s" data-wow-delay=".5s" src="../images/ramas/balance/oah.jpg" alt="">
             <img class="fotoRamas d-block mx-auto" src="../images/ramas/balance/pino.jpg" alt="">
         </div>
         <div class="row mb-5">
-            <p class="titulosRamas d-block mx-auto">POWER MOVES</p>
+            <p class="titulosRamas col-12 text-center">POWER MOVES</p>
             <p class="textoRamas">
                 Los Power Moves consisten, generalmente, en realizar "repeticiones" de un elemento estatico. Por ejemplo: Flexiones en Full Planche o Pull Ups en Front Lever.
             </p>
@@ -79,7 +77,7 @@
             <img class="fotoRamas d-block mx-auto" src="../images/ramas/power-moves/pufp.jpg" alt="">
         </div>
         <div class="row mb-5">
-            <p class="titulosRamas d-block mx-auto">STREET LIFTING</p>
+            <p class="titulosRamas col-12 text-center">STREET LIFTING</p>
             <p class="textoRamas">
                 El Streetlifting se encuadra en una de las categorías del Street Workout, consiste en lastrarse al realizar dominadas y los fondos, junto a otros ejercicios que pueden ir variando dependiendo de la competición, entre ellos: las pistol, muscle-up, sentadillas (con barras, Kettlebells o chalecos) o algo menos visto, pero no menos importante, como las pull-up one arm y flexiones con chalecos.
             </p>
@@ -98,5 +96,9 @@
             </ul>
         </div>
     </footer>
+    <script src="../js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
