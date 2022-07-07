@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss assets/scss/estilos.scss assets/css/estilos.css",
+    "build-scss": "node-sass --output-style compressed assets/scss/estilos.scss assets/css/estilos.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feruca/proyecto-final-coder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  },
+  "bugs": {
+    "url": "https://github.com/Feruca/proyecto-final-coder/issues"
+  },
+  "homepage": "https://github.com/Feruca/proyecto-final-coder#readme"
+}
