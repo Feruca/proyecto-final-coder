@@ -1,0 +1,14 @@
+.containerRamas {
+    margin: 1rem 0 2rem 0;
+    .titulosRamas {
+        font-size: $text-l;
+    }
+    .fotoRamas {
+        @include tamañoImg ($foto-ramas, $foto-ramas)
+    }
+    .textoRamas {
+        font-size: $text-s;
+        margin: 0 2.5rem;
+        margin-bottom: 1rem;
+    }
+}

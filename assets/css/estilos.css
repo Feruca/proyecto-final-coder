@@ -1,8 +1,16 @@
+/*variables*/
+/*Colores*/
+/*Images*/
+/*font-family*/
+/*Font-sizes*/
+/*normalize*/
 /*fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 /*font-family: 'Oswald', sans-serif;*/
 /* normalize */
-*::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -10,43 +18,104 @@
 html, body {
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: hidden; }
+
+body {
   font-family: "Oswald", sans-serif; }
 
-.fondo {
-  background-color: #000000; }
+ul {
+  list-style-type: none; }
 
-.logo {
-  width: 5rem;
-  height: 5rem; }
-
-.color {
+a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
   color: #ffffff; }
 
+/*mixins*/
+/*header*/
+header {
+  background-color: #000000;
+  color: #ffffff; }
+  header .logo {
+    width: 5rem;
+    height: 5rem; }
+
+/*footer*/
 footer {
   background-color: #000000;
   color: #ffffff;
   padding: 1rem 0; }
+  footer .linkRedes:hover {
+    color: #ffffff; }
 
-ul {
-  padding: 0; }
-  ul li {
-    list-style-type: none; }
-    ul li a.linkRedes {
-      text-decoration: none;
-      padding-left: 0;
-      color: #ffffff; }
-    ul li a:hover {
-      color: #ffffff; }
-
+/*index*/
 .imgInicio {
   width: 20rem;
   height: 20rem;
-  margin-bottom: 5rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 5rem; }
 
 .titulo {
   font-size: 3rem; }
 
 .parrafoIndex {
   font-size: 1.2rem; }
+
+/*ramas*/
+.containerRamas {
+  margin: 1rem 0 2rem 0; }
+  .containerRamas .titulosRamas {
+    font-size: 1.8rem; }
+  .containerRamas .fotoRamas {
+    width: 20rem;
+    height: 20rem; }
+  .containerRamas .textoRamas {
+    font-size: 1.4rem;
+    margin: 0 2.5rem;
+    margin-bottom: 1rem; }
+
+/*skills*/
+.tituloSkill {
+  font-size: 1.8rem;
+  margin: 1rem 3rem; }
+
+.skill {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0.5rem 2rem; }
+
+.textoProgresion {
+  background-color: #000000;
+  font-size: 1.4rem; }
+
+.fotoSkills {
+  width: 8rem;
+  height: 25rem;
+  padding: 1rem 5rem; }
+
+/*mejores atletas*/
+.containerAtleta {
+  margin-bottom: 3rem; }
+  .containerAtleta .nombreAtleta {
+    font-size: 3rem; }
+  .containerAtleta .fotoMejorAtleta {
+    width: 17rem;
+    height: 20rem; }
+  .containerAtleta .atleta {
+    font-size: 1.2rem; }
+
+/*consejos*/
+.containerIntro {
+  margin: 1rem 3.5rem 2rem 3.5rem; }
+  .containerIntro .titulo {
+    font-size: 2.3rem; }
+  .containerIntro .intro {
+    font-size: 1.4rem; }
+
+.containerConsejo {
+  margin: 0 6rem 2.5rem 6rem;
+  border: #808080 solid; }
+  .containerConsejo .subTitulo {
+    font-size: 1.8rem; }
+  .containerConsejo .consejo {
+    font-size: 1.2rem; }

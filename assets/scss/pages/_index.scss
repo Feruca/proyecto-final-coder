@@ -1,0 +1,11 @@
+.imgInicio {
+    @include tamañoImg ($foto-index, $foto-index);
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.titulo {
+    font-size: $text-xxl;
+}
+.parrafoIndex {
+    font-size: $text-xs;
+}

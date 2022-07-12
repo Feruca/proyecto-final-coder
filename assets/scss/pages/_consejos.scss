@@ -1,0 +1,19 @@
+.containerIntro {
+    margin: 1rem 3.5rem 2rem 3.5rem;
+    .titulo {
+        font-size: $text-xl;
+    }
+    .intro {
+        font-size: $text-s;
+    }
+}
+.containerConsejo {
+    margin: 0 6rem 2.5rem 6rem;
+    border: #808080 solid;
+    .subTitulo {
+        font-size: $text-l;
+    }
+    .consejo {
+        font-size: $text-xs;
+    }
+}

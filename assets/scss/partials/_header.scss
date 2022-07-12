@@ -1,0 +1,7 @@
+header {
+    background-color: $color-black;
+    color: $color-white;
+    .logo {
+        @include tamañoImg ($foto-logo, $foto-logo)
+    }
+}

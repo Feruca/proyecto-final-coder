@@ -1,0 +1,17 @@
+.tituloSkill {
+    font-size: $text-l;
+    margin: 1rem 3rem;
+}
+.skill {
+    background-color: $color-black;
+    color: $color-white;
+    margin: 0.5rem 2rem;
+}
+.textoProgresion {
+    background-color: $color-black;
+    font-size: $text-s;
+}
+.fotoSkills {
+    @include tamañoImg (8rem, 25rem);
+    padding: 1rem 5rem;
+}

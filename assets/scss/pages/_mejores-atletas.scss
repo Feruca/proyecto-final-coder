@@ -1,0 +1,12 @@
+.containerAtleta {
+    margin-bottom: 3rem;
+    .nombreAtleta {
+        font-size: $text-xxl;
+    }
+    .fotoMejorAtleta {
+        @include tamañoImg($width-foto-mejoresAtletas, $height-foto-mejoresAtletas)
+    }
+    .atleta {
+        font-size: $text-xs;
+    }
+}

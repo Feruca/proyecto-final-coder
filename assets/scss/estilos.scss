@@ -1,4 +1,22 @@
-@import "globales";
-@import "navbar";
-@import "footer";
-@import "index";
+/*variables*/
+@import "./misc/variables";
+/*normalize*/
+@import "./misc/normalize";
+/*mixins*/
+@import "./misc/mixins";
+
+/*header*/
+@import "./partials/header";
+/*footer*/
+@import "./partials/footer";
+
+/*index*/
+@import "./pages/index";
+/*ramas*/
+@import "./pages/ramas";
+/*skills*/
+@import "./pages/skills";
+/*mejores atletas*/
+@import "./pages/mejores-atletas";
+/*consejos*/
+@import "./pages/consejos";
