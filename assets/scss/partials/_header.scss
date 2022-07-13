@@ -1,6 +1,6 @@
 header {
-    background-color: $color-black;
-    color: $color-white;
+    background-color: map-get($map: $colors, $key: 'black');
+    color: map-get($map: $colors, $key: 'white');
     .logo {
         @include tamañoImg ($foto-logo, $foto-logo)
     }

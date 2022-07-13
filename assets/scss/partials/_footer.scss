@@ -1,8 +1,8 @@
 footer {
-    background-color: $color-black;
-    color: $color-white;
+    background-color: map-get($map: $colors, $key: 'black');
+    color: map-get($map: $colors, $key: 'white');
     padding: 1rem 0;
     .linkRedes:hover {
-            color: $color-white;
+            color: map-get($map: $colors, $key: 'white');
         }
     }

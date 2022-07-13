@@ -28,5 +28,5 @@ ul{
 a{
     text-decoration: none;
     font-family: $font-principal;
-    color:$color-white;
+    color: map-get($map: $colors, $key: 'white');
 }

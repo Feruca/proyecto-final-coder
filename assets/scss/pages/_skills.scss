@@ -3,12 +3,12 @@
     margin: 1rem 3rem;
 }
 .skill {
-    background-color: $color-black;
-    color: $color-white;
+    background-color: map-get($map: $colors, $key: 'black' );
+    color: map-get($map: $colors, $key: 'white');
     margin: 0.5rem 2rem;
 }
 .textoProgresion {
-    background-color: $color-black;
+    background-color: map-get($map: $colors, $key: 'black' );
     font-size: $text-s;
 }
 .fotoSkills {
