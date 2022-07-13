@@ -33,17 +33,15 @@ a {
 
 /*mixins*/
 /*header*/
-header {
+header, footer {
   background-color: #000000;
   color: #ffffff; }
-  header .logo {
+  header .logo, footer .logo {
     width: 5rem;
     height: 5rem; }
 
 /*footer*/
 footer {
-  background-color: #000000;
-  color: #ffffff;
   padding: 1rem 0; }
   footer .linkRedes:hover {
     color: #ffffff; }
