@@ -4,6 +4,8 @@
         font-size: $text-l;
     }
     .fotoRamas {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
         @include tamañoImg ($foto-ramas, $foto-ramas)
     }
     .textoRamas {

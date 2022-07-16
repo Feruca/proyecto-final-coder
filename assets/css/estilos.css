@@ -65,6 +65,8 @@ footer {
   .containerRamas .titulosRamas {
     font-size: 1.8rem; }
   .containerRamas .fotoRamas {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     width: 20rem;
     height: 20rem; }
   .containerRamas .textoRamas {
@@ -88,8 +90,11 @@ footer {
 
 .fotoSkills {
   width: 8rem;
-  height: 25rem;
+  height: 20rem;
   padding: 1rem 5rem; }
+
+.containerProgresion {
+  margin: 0 1rem; }
 
 /*mejores atletas*/
 .containerAtleta {

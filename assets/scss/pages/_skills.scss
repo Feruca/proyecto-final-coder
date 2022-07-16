@@ -12,6 +12,9 @@
     font-size: $text-s;
 }
 .fotoSkills {
-    @include tamañoImg (8rem, 25rem);
+    @include tamañoImg (8rem, 20rem);
     padding: 1rem 5rem;
+}
+.containerProgresion {
+    margin: 0 1rem;
 }
