@@ -31,6 +31,9 @@ a {
   font-family: "Oswald", sans-serif;
   color: #ffffff; }
 
+img {
+  width: 100%; }
+
 /*mixins*/
 /*header*/
 header, footer {
@@ -75,8 +78,8 @@ footer {
     margin-bottom: 1rem; }
 
 /*skills*/
-.tituloSkill {
-  font-size: 1.8rem;
+.tituloSkills {
+  font-size: 2.3rem;
   margin: 1rem 3rem; }
 
 .skill {
@@ -89,9 +92,9 @@ footer {
   font-size: 1.4rem; }
 
 .fotoSkills {
-  width: 8rem;
-  height: 20rem;
-  padding: 1rem 5rem; }
+  padding: 1rem 5rem;
+  width: 100%;
+  height: auto; }
 
 .containerProgresion {
   margin: 0 1rem; }

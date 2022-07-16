@@ -30,3 +30,7 @@ a{
     font-family: $font-principal;
     color: map-get($map: $colors, $key: 'white');
 }
+
+img {
+    width: 100%;
+}
