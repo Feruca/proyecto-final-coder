@@ -1,7 +1,7 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto final sobre el entrenamiento de Calistenia y Street Workout",
   "main": "index.js",
   "scripts": {
     "build-sass": "node-sass --include-path scss assets/scss/estilos.scss assets/css/estilos.css",
