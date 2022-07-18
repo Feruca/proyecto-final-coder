@@ -12,11 +12,7 @@
     <script src="./assets/bootstrap/js/jquery.slim.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./assets/css/estilos.css">
-    <link rel="stylesheet" href="./assets/css/animate.css">
-    <script src="./assets/js/wow.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <link rel="stylesheet" href="./assets/css/aos.css" />
 </head>
 <body>
     <header>
@@ -49,24 +45,24 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row "  >
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center titulo animate__animated animate__backInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center titulo" data-aos="slide-left">
                 ¿Que es la Calistenia?
             </div>
         </div>
         <div class="row animate__animated animate__backInRight">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center" data-wow-duration="1s">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center" data-aos="slide-right">
                 <p class="parrafoIndex"> Lo primero que debes aprender sobre Street Workout es que se trata de una disciplina basada en realizar diferentes ejercicios, ya sean básicos, estáticos y dinámicos, y que se pueden llevar a cabo con tu propio peso corporal. Como en el gimnasio, podrás trabajar en rangos de fuerza, hipertrofia o resistencia, en función de tus necesidades. El gran elemento diferenciador frente a otras modalidades son los movimientos característicos (o trucos), que tanto llaman la atención. Estos consiguen añadir un plus de motivación a los atletas, exigiendo más entretenimiento y ofreciendo un extenso abanico de posibilidades a la hora de entrenar y plantear sus objetivos.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 animate__animated animate__backInUp">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="slide-up" data-aos-delay="400">
                 <img class="imgInicio img-fluid d-block mx-auto" src="./assets/images/fullplanche.png" alt="">
             </div>
-            <div class="d-none d-lg-flex col-sm-12 col-md-12 col-lg-4 animate__animated animate__backInUp" >
+            <div class="d-none d-lg-flex col-sm-12 col-md-12 col-lg-4" data-aos="slide-up" data-aos-delay="600" >
                 <img class="imgInicio img-fluid d-block mx-auto" src="./assets/images/360.jpg" alt="">
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 animate__animated animate__backInUp">
+            <div class="col-sm-12 col-md-12 col-lg-4" data-aos="slide-up" data-aos-delay="800">
                 <img class="imgInicio img-fluid d-block mx-auto" src="./assets/images/frontlever.png" alt="">
             </div>
         </div>
@@ -83,5 +79,9 @@
         </div>
     </footer>
 
+    <script src="./assets/js/aos.js"></script>
+     <script>
+     AOS.init();
+     </script>
 </body>
 </html>
