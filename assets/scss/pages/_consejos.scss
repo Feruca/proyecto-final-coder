@@ -4,16 +4,28 @@
         font-size: $text-xl;
     }
     .intro {
+        font-size: $text-l;
+    }
+}
+.card {
+    margin: 3rem 10rem 1rem 10rem;
+    .card-header {
+        background-color: #b5b5b5;
+    }
+    .tituloCard {
+        color: map-get($map: $colors, $key: 'black');
+        font-size: $text-l;
+    }
+    .contenidoCard {
         font-size: $text-s;
     }
 }
-.containerConsejo {
-    margin: 0 6rem 2.5rem 6rem;
-    border: #808080 solid;
-    .subTitulo {
-        font-size: $text-l;
-    }
-    .consejo {
-        font-size: $text-xs;
+.fotoConsejo {
+    width: 20rem;
+    height: 20rem;
+}
+@media screen and (max-width: 992px) {
+    .card {
+        margin: 1rem 1rem 2rem 1rem;
     }
 }

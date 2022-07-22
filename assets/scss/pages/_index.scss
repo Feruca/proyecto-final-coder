@@ -9,3 +9,39 @@
 .parrafoIndex {
     font-size: $text-xs;
 }
+.formulario {
+    position: relative;
+    color: #ffffff;
+    background-color: #000000;
+    width: 30rem;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #000000;
+    h4 {
+        font-size: $text-s;
+        margin-bottom: 1.8rem;
+    }
+    .casillaForm {
+        padding: 0.8rem;
+        border-radius: 8px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .boton {
+        position: relative;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 50rem;
+    }
+    @media screen and (min-width: 992px) {
+        width: 40rem;
+    }
+    @media screen and (min-width: 576px) {
+        width: 30rem;
+    }
+    @media screen and (max-width: 576px) {
+        width: 20rem;
+    }
+}
