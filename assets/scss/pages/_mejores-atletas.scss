@@ -1,12 +1,56 @@
+.caja1 {
+    box-shadow: 0 15px 25px #000;
+    border-radius: 0px 20px 20px 0;
+    border: 12px solid #664200;
+    padding: 1rem 0;
+    margin: 3rem 0;
+    background-color: #000;
+    color: #fff;
+
+    .fotoMejorAtleta {
+        width: $width-foto-mejoresAtletas;
+        height: $height-foto-mejoresAtletas;
+        object-fit: cover;
+
+        .containerContenido {
+            h2 {
+                font-size: 5rem;
+            }
+
+            p {
+                display: inline-block;
+                font-size: 5rem;
+                padding: 0 5rem;
+            }
+        }
+    }
+}
+.caja2 {
+    @extend .caja1;
+    border-radius: 20px 0px 0px 20px;
+    }
+
 .containerAtleta {
     margin-bottom: 3rem;
+
     .nombreAtleta {
         font-size: $text-xxl;
     }
+
     .fotoMejorAtleta {
         @include tamañoImg($width-foto-mejoresAtletas, $height-foto-mejoresAtletas)
     }
+
     .atleta {
         font-size: $text-xs;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .caja1 {
+        border-radius: 0px 0px 15px 15px;
+        border: 8px solid #b5b5b5;
+        padding: 1rem 0;
+        margin: 1rem 0;
     }
 }
