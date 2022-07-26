@@ -187,16 +187,22 @@ footer {
   margin: 3rem 0;
   background-color: #000;
   color: #fff; }
-  .caja1 .fotoMejorAtleta, .caja2 .fotoMejorAtleta {
+
+.containerFoto {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .containerFoto .fotoMejorAtleta {
     width: 15rem;
     height: 20rem;
     object-fit: cover; }
-    .caja1 .fotoMejorAtleta .containerContenido h2, .caja2 .fotoMejorAtleta .containerContenido h2 {
-      font-size: 5rem; }
-    .caja1 .fotoMejorAtleta .containerContenido p, .caja2 .fotoMejorAtleta .containerContenido p {
-      display: inline-block;
-      font-size: 5rem;
-      padding: 0 5rem; }
+
+.containerContenido h2 {
+  font-size: 3rem; }
+
+.containerContenido p {
+  font-size: 1.2rem;
+  padding: 2rem; }
 
 .containerAtleta {
   margin-bottom: 3rem; }

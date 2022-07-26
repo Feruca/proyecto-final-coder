@@ -15,10 +15,8 @@
     <script src="../bootstrap/js/jquery.slim.min.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/estilos.css">
-    <script src="../js/wow.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <!--animaciones-->
+    <link rel="stylesheet" href="../css/aos.css"/>
 </head>
 
 <body>
@@ -56,7 +54,7 @@
     <div class="mejoresAtletas">
         <div class="row container caja1 mx-auto">
             <div class="col-lg-4 col-md-12 containerFoto">
-                <img class="fotoMejorAtleta d-block mx-auto" src="../images/mejores-atletas/eryc-ortiz.jpg">
+                <img class="fotoMejorAtleta" src="../images/mejores-atletas/eryc-ortiz.jpg">
             </div>
             <div class="col-lg-8 col-md-12 containerContenido">
                 <h2 class="text-center">Eryc Ortiz</h2>
@@ -71,7 +69,7 @@
         </div>
         <div class="row container caja2 mx-auto d-flex flex-row-reverse">
             <div class="col-lg-4 col-md-12 containerFoto">
-                <img class="fotoMejorAtleta d-block mx-auto" src="../images/mejores-atletas/larosa.jpg">
+                <img class="fotoMejorAtleta" src="../images/mejores-atletas/larosa.jpg">
             </div>
             <div class="col-lg-8 col-md-12 containerContenido">
                 <h2 class="text-center">Andrea Larosa </h2>
@@ -91,7 +89,7 @@
 
         <div class="row container caja1 mx-auto">
             <div class="col-lg-4 col-md-12 containerFoto">
-                <img class="fotoMejorAtleta d-block mx-auto" src="../images/mejores-atletas/tony-gaste.jpg">
+                <img class="fotoMejorAtleta" src="../images/mejores-atletas/tony-gaste.jpg">
             </div>
             <div class="col-lg-8 col-md-12 containerContenido">
                 <h2 class="text-center">Tony Gaste</h2>
@@ -137,6 +135,10 @@
             </div>
         </div>
     </footer>
+    <script src="./assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
