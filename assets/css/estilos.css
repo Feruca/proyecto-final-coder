@@ -181,7 +181,7 @@ footer {
 /*mejores atletas*/
 .caja1, .caja2 {
   box-shadow: 0 15px 25px #000;
-  border-radius: 0px 20px 20px 0;
+  border-radius: 20px;
   border: 12px solid #664200;
   padding: 1rem 0;
   margin: 3rem 0;
@@ -198,9 +198,6 @@ footer {
       font-size: 5rem;
       padding: 0 5rem; }
 
-.caja2 {
-  border-radius: 20px 0px 0px 20px; }
-
 .containerAtleta {
   margin-bottom: 3rem; }
   .containerAtleta .nombreAtleta {
@@ -213,10 +210,10 @@ footer {
 
 @media screen and (max-width: 992px) {
   .caja1, .caja2 {
-    border-radius: 0px 0px 15px 15px;
-    border: 8px solid #b5b5b5;
+    border-radius: 0px 0px 20px 20px;
+    border: 8px solid #664200;
     padding: 1rem 0;
-    margin: 1rem 0; } }
+    margin: 2rem 0; } }
 
 /*consejos*/
 .containerIntro {
